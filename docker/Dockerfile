@@ -1,4 +1,4 @@
-FROM python:3.9.0-buster
+FROM python:3.7-buster
 
 RUN pip install -U platformio
 RUN pio upgrade --dev
